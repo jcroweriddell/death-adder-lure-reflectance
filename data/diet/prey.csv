@@ -1,0 +1,186 @@
+species,museum,catalog#,Locality,State,Country,SVL (cm),sex,gut contents,notes,Prey_item_number,Ectotherm,Endotherm,Prey_taxa_major,Prey_taxa_family,Prey taxa 2,Prey_common_group,Prey size,Prey activity
+ant,AM,74300,COFFS HARBOUR AREA                                                              ,NSW,AUS,13.1,,Lampropholis delicata,"born 2/73, neonate",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,QM,7210,"Angoram, Sepik R",,PNG,13.4,,Leiolopisma sp.,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS-SU,7297,,QLD,AUS,15,,"2 juvenile skinks (Menetia greyii), 1 head only, 1 whole body",Menetia greyii,1,1,0,Reptilian,Scincidae,Scincidae,Scincidae,small,diurnal
+ant,CAS-SU,7297,,QLD,AUS,15,,"2 juvenile skinks (Menetia greyii), 1 head only, 1 whole body",Menetia greyii,1,1,0,Reptilian,Scincidae,Scincidae,Scincidae,small,diurnal
+pyr,WAM,28099,Anna Plains,WA,AUS,15.6,F,Diplodactylus stenodactylus,,1,1,0,Reptilian,Diplodactylidae,,,,diurnal
+ant,BPBM,3653,,Morobe Province: Watut River,PNG,17.7,F,"contains Emoia sp.,possibly pallidiceps, no head",small hard insect like parts in hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,SAM,38566,,SA,AUS,18,F,scales,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+pyr,WAM,28107,16 km S of La Grange,WA,AUS,19.5,?,Ctenophorus caudicinctus,,1,1,0,Reptilian,Agamidae,,,,diurnal
+abdi,WAM,12280,Mundiwindi,WA,AUS,20,?,2rept.eggs in hindgut,no forward viscera,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+abdi,WAM,12280,Mundiwindi,WA,AUS,20,?,2rept.eggs in hindgut,no forward viscera,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+pyr,WAM,28101,16 km S of La Grange,WA,AUS,21,M,1liz+fec,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,AM,12226,BULOLO DIST.NEW GUINEA                                                          ,,PNG,21.8,f,"one striped Leiolopisma spp., gravid",,1,1,0,Reptilian,Scincidae,,,,diurnal
+abdi,WAM,8886,,WA,AUS,22.3,M,skink and feces,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,1834,MOREE                                                                           ,NSW,AUS,22.4,f,one skink,,1,1,0,Reptilian,Scincidae,,,small,diurnal
+ant,BPBM,2029,,"Irian Jaya, Nabire",Indonesia,22.7,F,"already opened, nothing","hindgut contains skink egg, lt brn mushy stuff",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114181,,Dunantina Valley,PNG,23.2,M,1 adult Sphenomorphus sp.,"hindgut contains blk gunk, poss. Scales",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,NTM,8193,,NT,AUS,25,F,Carlia sp.,,1,1,0,Reptilian,Scincidae,,Scincidae,unknown,diurnal
+ant,SAM,20821,,SA,AUS,25.2,F,Pogona vitticeps,,1,1,0,Reptilian,Agamidae,,,,diurnal
+pyr,WAM,10033,Wurarga,WA,AUS,25.3,F,"skink sp., feces",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114167,,Dunantina Valley,PNG,25.4,M,1 adult Emoia jakati,blk mush in hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,14851,"BAIYER VALLEY AGRICULTURAL STATION, WESTERN HIGHLANDS DISTRICT                  ",,PNG,27.1,m,Crytoblepharous boutonii,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114169,,Dunantina Valley,PNG,27.4,M,1 ad. Sphenomorphus sp.,hindgut contains blk hard gritty stuff,1,1,0,Reptilian,Scincidae,,,,diurnal
+pyr,WAM,93215,Shothole Canyon,WA,AUS,27.5,M,Carlia foliorum,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS-SU,20906,,Moroge: Bulolo,PNG,27.8,M,Emoia jakati (1 adult),hindgut contains blk stuff,1,1,0,Reptilian,Scincidae,,,,diurnal
+pra,QM,40528,"Beagle Camp, via Weipa",QLD,AUS,28,F,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,CAS,136599,,QLD,AUS,28.1,F,white mealy stuff,hindgut contains fur and bones,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,CAS,114168,,Dunantina Valley,PNG,28.1,M,"1ad. Emoia jakati, another Emoia sp.w/out head","hindgut contains blk, hard gritty stuff",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,USNM,213461,,"W. Province: Balimo, Aramia River",PNG,28.4,M,1Carlia bicarinata (ided by USNM),didn't open hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,NTM,9726,,NT,AUS,28.8,M,frogs (2),,1,1,0,Amphibian,Frog-unknown,Anura,Anura,,unknown
+ant,NTM,9726,,NT,AUS,28.8,M,frogs (2),,1,1,0,Amphibian,Frog-unknown,Anura,Anura,,unknown
+ant,CAS,114170,,Dunantina Valley,PNG,28.8,M,Emoia sp.,skink head and insect head and hard blk stuff in hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+pyr,WAM,113114,23 km W Pannawonica,WA,AUS,29,F,Antechinus sp.,,1,0,1,Mammalian,Dasyuridae,,,,crepuscular / nocturnal
+ant,NTM,7068,,SA,AUS,30,F,white mouse,,1,0,1,Mammalian,Muridae,,Muridae,medium,crepuscular / nocturnal
+ant,CAS,13237,,"Irian Jaya, GHQ on Lake Sentani",Indonesia,30,M,none,"hingut contains lots, smushed reptile eggs, blk gunk",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114191,,Dunantina Valley,PNG,30.7,M,none,"hindgut contents in 2 vials, small bones, blk stuff, skink jaw",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,11198,BEROWRA                                                                         ,NSW,AUS,30.8,f,Lampropholis spp0.,,1,1,0,Reptilian,Scincidae,,,small,diurnal
+abdi,WAM,73731,Deepdale HS Robe River,WA,AUS,31,M,Sminthopsis murina,,1,0,1,Mammalian,Dasyuridae,,,,crepuscular / nocturnal
+pyr,NTM,15945,,NT,AUS,31.5,M,newborn rodent,,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,small,crepuscular / nocturnal
+ant,QM,45264,"Laceys Ck, via Dayboro",QLD,AUS,31.5,M,Bufo marinus in mouth,,1,1,0,Amphibian,Bufonidae,,,,crepuscular / nocturnal
+ant,USNM,195581,,"W. Province: Emeti, Bamu River",PNG,31.9,M,"large skink without head, possibly Sphenomorphus, large ant in skink sticking out of body; head and legs ofHylidae: Litoria sp., beetle parts, Ascaris",insect parts in hindguts,1,1,0,Amphibian,Pelodryadidae,,,,unknown
+ant,USNM,195581,,"W. Province: Emeti, Bamu River",PNG,31.9,M,"large skink without head, possibly Sphenomorphus, large ant in skink sticking out of body; head and legs ofHylidae: Litoria sp., beetle parts, Ascaris",insect parts in hindguts,1,1,0,Amphibian,Hylidae,,,,unknown
+ant,USNM,195581,,"W. Province: Emeti, Bamu River",PNG,31.9,M,"large skink without head, possibly Sphenomorphus, large ant in skink sticking out of body; head and legs ofHylidae: Litoria sp., beetle parts, Ascaris",insect parts in hindguts,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,USNM,195581,,"W. Province: Emeti, Bamu River",PNG,31.9,M,"large skink without head, possibly Sphenomorphus, large ant in skink sticking out of body; head and legs ofHylidae: Litoria sp., beetle parts, Ascaris",insect parts in hindguts,1,1,0,Insecta,Coleoptera-unknown,,,,diurnal
+ant,AM,12975,"LAE, MOROBE DISTRICT                                                            ",,PNG,32,f,one frog,,1,1,0,Amphibian,Frog-unknown,,,,unknown
+ant,CAS,135510,,Togo,PNG,32,M,none,"hindgut contains 2 reptile eggs, probably skink, blk gunk",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,135510,,Togo,PNG,32,M,none,"hindgut contains 2 reptile eggs, probably skink, blk gunk",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,135437,PEARL BEACH                                                                     ,,,32,F,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+pra,QM,51686,"Hinchinbrook Is, machusla Beach",QLD,AUS,32.5,M,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,USNM,213462,,"W. Province: Balimo, Aramia River",PNG,32.9,M,"appears to be small Sphenomorphus, only tail and legs",didn't open hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114116,,W. Highlands: Baiyer River,PNG,33.9,M,none,"hindgut contains scales, bones, gunk",1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,QM,20616,"Mt. Irvine, 80 km NW Sydney",NSW,AUS,34,f,Amphibolurus muricatus,,1,1,0,Reptilian,Agamidae,,,medium,diurnal
+ant,CAS-SU,20907,,Moroge: Bulolo,PNG,34.3,M,none,hindgut contains rodent fur,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,CAS,114184,,Dunantina Valley,PNG,34.5,F,none,"pieces of an adult skink, grass, and white/gry hair in hindgutm, skink poss. Sphenomorphus",1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,114184,,Dunantina Valley,PNG,34.5,F,none,"pieces of an adult skink, grass, and white/gry hair in hindgutm, skink poss. Sphenomorphus",1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,SAM,25238,,SA,AUS,35,F,scales,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,SAM,31641,,SA,AUS,35,M,scales,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,USNM,195582,,"Central: Boroko, Brown River Rd.",PNG,35,M,"2 adult skinks, Sphenomorphus stickeli (one separately tagged as USNM 247159); lots of Ascaris",didn't cut hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,USNM,195582,,"Central: Boroko, Brown River Rd.",PNG,35,M,"2 adult skinks, Sphenomorphus stickeli (one separately tagged as USNM 247159); lots of Ascaris",didn't cut hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,QM,49847,Long Is Resort area N and ,QLD,AUS,35.5,M,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,77762,,QLD,AUS,35.9,M,"Australian skink, maybe Carlia","hindgut contains scales, blk gunk",1,1,0,Reptilian,Eugongylinae,,Scincidae,small,diurnal
+pra,QM,43760,"Cooktown, 15 km W",QLD,AUS,36.5,M,"lizard, frog",,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+pra,QM,43760,"Cooktown, 15 km W",QLD,AUS,36.5,M,"lizard, frog",,1,1,0,Amphibian,Frog-unknown,,,,unknown
+ant,SAM,28460,,SA,AUS,37,M,scales,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+abdi,WAM,114901,,WA,AUS,37,F,Antechinus sp.,,1,0,1,Mammalian,Dasyuridae,,,,crepuscular / nocturnal
+ant,AM,15750,"MADANG, MADANG DISTRICT                                                         ",,PNG,37,f,scincidae scales,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,QM,1177,Dulacea,QLD,AUS,37.5,m,scincid lizard,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,QM,1177,Dulacea,QLD,AUS,37.5,m,frog,,1,1,0,Amphibian,Frog-unknown,,,small,diurnal
+ant,QM,52886,,WA,AUS,37.5,M,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+abdi,WAM,71228,16 km NNW Mia Mia HS,WA,AUS,37.5,F,lizard,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+abdi,WAM,12672,10 km N of Marble Bar,WA,AUS,38.5,M,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,no number,,,AUS,38.8,m,Ctenatus taeniolatum,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,109911,,Dunantina Valley,PNG,39.1,F,none,"stuff in hindguts, maybe fur",1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,QM,49983,,,,39.5,M,skink,"shine says nothing in part of notes for food, skink in other section",1,1,0,Reptilian,Scincidae,,,,diurnal
+pyr,NTM,310,,NT,AUS,40,F,frog,,1,1,0,Amphibian,Frog-unknown,,Anura,unknown,diurnal
+ant,NTM,3354,,NT,AUS,40,F,Ctenotus inornatus; Litoria latopalmata; mammal (1),,1,1,0,Amphibian,Pelodryadidae,Anura,,,unknown
+ant,NTM,3354,,NT,AUS,40,F,Ctenotus inornatus; Litoria latopalmata; mammal (1),,1,1,0,Reptilian,Scincidae,Scincidae,Scincidae,,diurnal
+ant,NTM,3354,,NT,AUS,40,F,Ctenotus inornatus; Litoria latopalmata; mammal (1),,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,NTM,8201,,NT,AUS,40,F,Varanus spp.,,1,1,0,Reptilian,Varanidae,,Varanidae,,diurnal
+ant,WAM,77849,8 km N Eyre HS,WA,AUS,40,M,"skinks 2X, agamid (1)",,1,1,0,Reptilian,Agamidae,,,,diurnal
+ant,WAM,77849,8 km N Eyre HS,WA,AUS,40,M,"skinks 2X, agamid (1)",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,77849,8 km N Eyre HS,WA,AUS,40,M,"skinks 2X, agamid (1)",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,QM,52885,,WA,AUS,40.5,M,Leggodina forresti,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,SAM,25418,,SA,AUS,40.5,M,Mus musculus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+abdi,WAM,78136,Yandicoogina,WA,AUS,40.5,F,"slime, fur in fec",,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,AM,48113,DHARUG NATIONAL PARK                                                            ,NSW,AUS,41,m,bird,,1,0,1,Avian,Bird-unknown,,,,unknown
+ant,SAM,4045A,,SA,AUS,41,F,skink bits,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,3693,,WA,AUS,41,M,skink,viscera damaged,1,1,0,Reptilian,Scincidae,,,,diurnal
+abdi,WAM,113374,,WA,AUS,41,F,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,WAM,no#,,WA,AUS,41,M,Morethia sp.,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,BPBM,3851,,"W. Highlands Province, Baiyer River",PNG,41,F,stomach opened already,"hair in hindgut (mammal) also half of ovaries missing, insect parts",1,1,0,Insecta,Insect-unknown,,,,unknown
+ant,BPBM,3851,,"W. Highlands Province, Baiyer River",PNG,41,F,stomach opened already,"hair in hindgut (mammal) also half of ovaries missing, insect parts",1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,CAS,114118,,E. Highland: Obura,PNG,41.5,F,none,"hindgut contains bones, hard scales, blk stuff",1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,AM,26274,"ANGURUGU MISSION, GROOTE EYLANDT                                                ",NT,AUS,41.6,f,Physignathus gliberti,,1,1,0,Reptilian,Agamidae,,,,diurnal
+pyr,NTM,31226,,NT,AUS,42,F,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,SAM,2815,,SA,AUS,42,M,skink scales,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,2267,,WA,AUS,42,M,Ctenotus labillardieri; Morethia,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,2267,,WA,AUS,42,M,Ctenotus labillardieri; Morethia,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,109916,,Dunantina Valley,PNG,42.2,F,"bones, Emoia sp. egg","hindgut contains 1 Emoia sp. egg, bones, muck, cervical vertebrae and other vertebrae",1,1,0,Reptilian,Scincidae,,,,diurnal
+abdi,WAM,119367,,WA,AUS,42.5,F,mammal,,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,FMNH,75139,,,AUS,42.8,M,mammal fur and tail in stomach and intestines,,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+abdi,WAM,80433,15 km N of Nautarra Roadhouse,WA,AUS,43,F,pygmy possum,,1,0,1,Mammalian,Burramyidae,,,,crepuscular / nocturnal
+abdi,WAM,104188,,WA,AUS,43,M,fec (fur),,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,AM,133425,"TANJA, ABOUT 10KM N OF TATHRA                                                   ",,,43,F,"skink, 4 toes, 12 scales long on tail",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,FMNH,97035,N. Queensland: Cairns,QLD,AUS,43.4,M,mammal tail and fur,mammal fur in hindgut and intestines + talon,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,FMNH,97035,N. Queensland: Cairns,QLD,AUS,43.4,M,mammal tail and fur,mammal fur in hindgut and intestines + talon,1,0,1,Avian,Bird-unknown,Avian,Mammalia,unknown,unknown
+ant,AM,11712,BELLINGEN                                                                       ,NSW,AUS,44,m,bird-sparrow,,1,0,1,Avian,Passerididae,,,small,diurnal
+ant,WAM,248,Lion Mill,WA,AUS,44,M,Egernia napoleonis; Cryptoblepharis plagiocephalis,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,248,Lion Mill,WA,AUS,44,M,Egernia napoleonis; Cryptoblepharis plagiocephalis,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,5619,Jarrahdale,WA,AUS,44,M,skink sp.,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,14352,GOROKA [EASTERN HIGHLANDS DISTRICT]                                             ,,PNG,44,f,one small mammal,,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+abdi,WAM,113378,,WA,AUS,44.5,F,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+pyr,WAM,70699,Kalgoorlie,WA,AUS,44.8,F,"Ctenophorus sp., Egernia formosa",,1,1,0,Reptilian,Agamidae,,,,diurnal
+pyr,WAM,70699,Kalgoorlie,WA,AUS,44.8,F,"Ctenophorus sp., Egernia formosa",,1,1,0,Reptilian,Scincidae,,,,diurnal
+pyr,WAM,79008,27 km NE of Sandfire Roadhouse Anna Plains Station,WA,AUS,44.8,M,1liz+fec,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,WAM,87939,Jarrahdale,WA,AUS,45,M,"1skink,1bird",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,87939,Jarrahdale,WA,AUS,45,M,"1skink,1bird",,1,0,1,Avian,Bird-unknown,,,,unknown
+ant,NTM,8194,,NT,AUS,45.5,F,Agamid lizard; Litoria sp.(frog),,1,1,0,Amphibian,Pelodryadidae,,Anura,,unknown
+ant,NTM,8194,,NT,AUS,45.5,F,Agamid lizard; Litoria sp.(frog),,1,1,0,Reptilian,Agamidae,,Agamidae,unknown,diurnal
+ant,QM,45512,,QLD,AUS,45.6,F,Lizard; Mus domesticus; feather,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,QM,45512,,QLD,AUS,45.6,F,Lizard; Mus domesticus; feather,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,QM,45512,,QLD,AUS,45.6,F,Lizard; Mus domesticus; feather,,1,0,1,Avian,Bird-unknown,,,,unknown
+ant,USNM,213463,,"W. Province: Balimo, Makapa R. Aramia River",PNG,45.8,F,USNM 213384 Sphenomorphus melanopogon,50mm balls of calcified scales in hindgut,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,AM,80906,"WOLLEMI NATIONAL PARK, WOLLEMI CREEK - CAPERTEE RIVER AREA                      ",,PNG,46.4,f,"Physignathus leseuri, Sphenomorphus quoyi",,1,1,0,Reptilian,Agamidae,,,,diurnal
+ant,AM,80906,"WOLLEMI NATIONAL PARK, WOLLEMI CREEK - CAPERTEE RIVER AREA                      ",,PNG,46.4,f,"Physignathus leseuri, Sphenomorphus quoyi",,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,109915,,Dunantina Valley,PNG,46.5,F,none,2 sides of lizard jaw (skink) in hindgut and a nemotode,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,118942,,"Purari River, Oroi",PNG,46.6,F,lots of fur,"hindgut contains mammal fur, big hard thing",1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,CAS-SU,20904,,Moroge: Bulolo,PNG,46.7,M,rodent (probably Rattus),hindgut contains more rat fur,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,QM,1937,Buderim Mt,QLD,AUS,46.8,f,mammal Mus,Mus domesticus (2),1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,QM,1937,Buderim Mt,QLD,AUS,46.8,f,mammal Mus,Mus domesticus (2),1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+pyr,QM,39570,"Durrie Stn, via Birdsville",QLD,AUS,47,F,Mus domesticus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,AM,76968,"ANGURUGU MISSION, GROOTE EYLANDT                                                ",NT,AUS,47.5,f,Ctenotus robustus,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,SAM,19229,,SA,AUS,47.5,M,Ctenotus uber orientalis,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,2820,,WA,AUS,47.5,M,Morethia obscura; I bird,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,2820,,WA,AUS,47.5,M,Morethia obscura; I bird,,1,0,1,Avian,Bird-unknown,,,,unknown
+pyr,AM,128358,FORREST RIVER MISSION                                                           ,,,47.7,F,reptile scales,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,WAM,333,Bedfordale,WA,AUS,47.8,F,Morethia obscura (4),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,333,Bedfordale,WA,AUS,47.8,F,Morethia obscura (4),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,333,Bedfordale,WA,AUS,47.8,F,Morethia obscura (4),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,333,Bedfordale,WA,AUS,47.8,F,Morethia obscura (4),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,SAM,18749,,SA,AUS,48,M,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,1519,,NT,AUS,48,M,Cryptoblepharus plagiocephalus (2),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,1519,,NT,AUS,48,M,Cryptoblepharus plagiocephalus (2),,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,98662,,Wonenaca,PNG,48,F,none,"hindgut contains cricket or insect part, tooth from Acan, blk stuff",1,1,0,Insecta,Insect-unknown,,,,unknown
+ant,CAS,135509,,Lake Murray,PNG,48,F,none,"hindgut contains straw, white fur, hard parts",1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+pyr,NTM,1957,,NT,AUS,48.5,F,agamid and gecko,,1,1,0,Reptilian,Gekkonidae,Geckonidae,Agamidae,unknown,diurnal
+pyr,NTM,1957,,NT,AUS,48.5,F,agamid and gecko,,1,1,0,Reptilian,Agamidae,Geckonidae,Agamidae,unknown,diurnal
+pyr,WAM,91671,55 km S of Anna Plains HS,WA,AUS,48.7,F,Ctenotus grandis,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,NTM,5248,,NT,AUS,49,M,skink,,1,1,0,Reptilian,Scincidae,,Scincidae,unknown,diurnal
+pyr,NTM,9974,,WA,AUS,49,F,"Litoria sp., agamid sp.",,1,1,0,Reptilian,Agamidae,Agamidae,,,diurnal
+pyr,NTM,9974,,WA,AUS,49,F,"Litoria sp., agamid sp.",,1,1,0,Amphibian,Pelodryadidae,,Anura,,unknown
+ant,BPBM,1271,Sydney,NSW,AUS,50.5,M?,nothing,"smushed blk stuff, hard, poss. Scales in hindgut",1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+pyr,NTM,31216,,NT,AUS,50.5,F,1liz,,1,1,0,Reptilian,Reptile-unknown,,Squamata,unknown,diurnal
+pyr,WAM,79006,13 km SE of Anna Plains Homestead,WA,AUS,50.5,M,Diporiphora winneckei,,1,1,0,Reptilian,Agamidae,,,,diurnal
+pyr,NTM,7189,,WA,AUS,51,F,skinks,,1,0,1,Reptilian,Scincidae,,Scincidae,unknown,diurnal
+ant,WAM,26689,Araluen,WA,AUS,51,F,Egernia sp.,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,CAS,77793,,VIC,AUS,51.3,F,2 domestic mammals + fur,Mus musculus,1,0,1,Mammalian,Muridae,Muridae,Muridae,medium,crepuscular / nocturnal
+ant,CAS,77793,,VIC,AUS,51.3,F,2 domestic mammals + fur,"1 mammal is white domestic mouse, rocks and fur in feces",1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,CAS,77793,,VIC,AUS,51.3,F,2 domestic mammals + fur,"1 mammal is white domestic mouse, rocks and fur in feces",1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,NTM,5201,,NT,AUS,52,F,1mammal,,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+pyr,WAM,9996,Tallering Stn. Pindar,WA,AUS,52,F,skink,,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,NTM,9724,,NT,AUS,52.5,F,Litoria sp.,,1,1,0,Amphibian,Pelodryadidae,,Anura,,unknown
+ant,WAM,5948,Canning Dam,WA,AUS,52.5,F,Egernia sp.,liz tail in feces,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,5948,Canning Dam,WA,AUS,52.5,F,Egernia sp.,liz tail in feces,1,1,0,Reptilian,Scincidae,,,,diurnal
+ant,WAM,9576,Jarrahdale,WA,AUS,52.7,M,fur&feathers in fec (bird),,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,WAM,9576,Jarrahdale,WA,AUS,52.7,M,fur&feathers in fec (bird),,1,0,1,Avian,Bird-unknown,,,,unknown
+pyr,WAM,9756,,WA,AUS,53.6,F,Ctenophorus ,,1,1,0,Reptilian,Agamidae,,,,diurnal
+ant,QM,40284,no data,,,54,F,white mouse fur,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,QM,50588,"Magnetic Is, Nelly Beach",QLD,AUS,56.5,F,lizard; frog,,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
+ant,QM,50588,"Magnetic Is, Nelly Beach",QLD,AUS,56.5,F,lizard; frog,,1,1,0,Amphibian,Frog-unknown,,,,unknown
+ant,QM,8105,Roma,QLD,AUS,57.4,m,mammal possibly Mus,Mus domesticus,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,SAM,24221,,SA,AUS,60,M,Rattus,,1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,CAS-SU,20905,,Moroge: Bulolo,PNG,60.9,F,none,"rat fur in hindgut, weight > 400g",1,0,1,Mammalian,Muridae,,,,crepuscular / nocturnal
+ant,QM,4717,Brookfield,QLD,AUS,61.1,f,Mice,,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,QM,4717,Brookfield,QLD,AUS,61.1,f,2 mice and one small bird,,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,QM,4717,Brookfield,QLD,AUS,61.1,f,2 mice and one small bird,,1,0,1,Avian,Bird-unknown,,,medium,unknown
+ant,QM,23754,"Numinbah Valley, via Southport",QLD,AUS,61.5,f,"mashed up mammal ""Tanner?"", white mouse according to MG",,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,CAS,77794,,VIC,AUS,62.5,F,none,hindgut contains fur and feces,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,QM,31980,"Stradbroke Is, Slipping Sands",QLD,AUS,62.8,f,one mouse,,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+pyr,AM,125319,,WA,AUS,65.5,F,white mouse,,1,0,1,Mammalian,Muridae,,,medium,crepuscular / nocturnal
+ant,SAM,10732,,SA,AUS,66,F,fur,,1,0,1,Mammalian,Mammalian-unknown,,,,crepuscular / nocturnal
+ant,NTM,9699,,NT,AUS,69,M,frog,,1,1,0,Amphibian,Frog-unknown,,Anura,,unknown
+ant,QM,31999,Murwillumbah,NSW,AUS,70,f,Antechinus sp.,,1,0,1,Mammalian,Dasyuridae,,,medium,crepuscular / nocturnal
+ant,NTM,17882,,NT,AUS,73.5,F,fec (fur),,1,0,1,Mammalian,Mammalian-unknown,,Mammalia,unknown,crepuscular / nocturnal
+ant,NTM,31211,,NT,AUS,75,F,Sminthopsis sp.,,1,0,1,Mammalian,Dasyuridae,,Dasyuridae,medium,crepuscular / nocturnal
+pyr,WAM,28102,16 km S of La Grange,WA,AUS,,F?,1liz,body badly damaged,1,1,0,Reptilian,Reptile-unknown,,,,diurnal
