@@ -11,6 +11,7 @@ library(tidyverse)
 library(magrittr)
 library(assertthat)
 library(cowplot)
+library(viridisLite)
 
 # Palette for plots
 pal <- c("Black1" = "#333333", 
@@ -200,36 +201,18 @@ ggsave(filename = "banded_mean.png",
        units = "mm")
 ##
 
-####################################################################
-# Change negative values to 0 for plotting line
-# meanSpectro$mean_reflectance[meanSpectro$mean_reflectance<0] <- 0
-
-## Plotting
-regions <- sort(unique(meanSpectro$colour))
-pal <- c("#333333", "#666666", "#999999", "333000", "#FFCC99")
-names(pal) <- regions
-min_reflectance = 0
-max_reflectance = 100
-  
-banded <- meanSpectro %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  filter(phenotype %in% "Banded") %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour)) 
-
-  
-banded +
+## Plot reflectance for 'yellow ventral' measurement only
+yellow <- meanSpectro %>% 
+  filter(grepl("Yellow", colour)) %>%
+  ggplot(aes(x = wavelength, y = mean_reflectance, colour = id)) +
   geom_point(size = 0.5) +
-  labs(title = "Banded tails",
-       caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  scale_colour_manual(values = pal) +
   theme_bw() +
-  xlim(250, 750) +
-  facet_wrap(~id, dir = "v", ncol = 2, scales = "free_x") +
-  geom_vline(xintercept = 380, linetype = "dotted", colour = "gray", size = 0.8) +
-  geom_vline(xintercept = 740, linetype = "dotted", colour = "gray", size = 0.8) +
-  #annotate(geom="text", x=550, y=115, label="Visible", color="gray") +
+  labs(x = 'Wavelength', y = 'Mean Reflectance (%)') +
+  xlim(300, 700) +
+  ylim(0, 100) +
+  scale_color_viridis_d(alpha=0.6, direction = -1, name = "Individual") +
+  geom_vline(xintercept = 400, linetype = "dotted", colour = "grey20", size = 0.8) +
+  annotate(geom="text", x = 350, y = 100, label = "UV", color = "grey20") +
   theme(plot.title = element_text(hjust = 0.5),
         panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), 
@@ -238,242 +221,15 @@ banded +
         strip.placement = "inside",
         strip.background = element_blank(),
         strip.text.y = element_blank()) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
+  guides(colour = guide_legend(override.aes = list(size=3)),
+         text = element_text(size = 20))
 
-## Transition
-transition <- meanSpectro %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  filter(phenotype %in% "Transition") %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour)) +
-  geom_point(size = 0.5) +
-  labs(title = "Transition tails",
-       caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  scale_colour_manual(values = pal) +
-  theme_bw() +
-  facet_wrap(~id, dir = "v", scales = "free_x") +
-  xlim(250, 750) +
-  geom_vline(xintercept = 380, linetype = "dotted", colour = "gray", size = 0.8) +
-  geom_vline(xintercept = 740, linetype = "dotted", colour = "gray", size = 0.8) +
-  theme(plot.title = element_text(hjust = 0.5),
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(), 
-        panel.background = element_blank(), 
-        axis.line = element_line(colour = "black"),
-        strip.placement = "inside",
-        strip.background = element_blank(),
-        strip.text.y = element_blank()) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-transition
-
-## Striped tails
-striped <- meanSpectro %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  filter(phenotype %in% "Striped") %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour))+
-  geom_point(size = 0.5) +
-  labs(title = "Striped tails",
-       caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  scale_colour_manual(values = pal) +
-  theme_bw() +
-  facet_wrap(~id, dir = "v", ncol = 3, scales = "free_x") +
-  xlim(250, 750) +
-  #ylim(0, 125) +
-  #geom_hline(yintercept = 0, linetype = "solid", colour = "gray", size = 0.8) +
-  geom_vline(xintercept = 380, linetype = "dotted", colour = "gray", size = 0.8) +
-  geom_vline(xintercept = 740, linetype = "dotted", colour = "gray", size = 0.8) +
-  theme(plot.title = element_text(hjust = 0.5),
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(), 
-        panel.background = element_blank(), 
-        axis.line = element_line(colour = "black"),
-        strip.placement = "inside",
-        strip.background = element_blank(),
-        strip.text.y = element_blank()) +
-  guides(colour = guide_legend(override.aes = list(size=3))) 
-
-striped
-
-## Uniform
-uniform  <- meanSpectro %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  filter(phenotype %in% "Uniform") %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour)) +
-  geom_point(size = 0.5) +
-  labs(title = "Uniform tails",
-       caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  scale_colour_manual(values = pal) +
-  theme_bw() +
-  facet_wrap(~id, dir = "v", scales = "free_x") +
-  xlim(250, 750) +
-  geom_vline(xintercept = 380, linetype = "dotted", colour = "gray", size = 0.8) +
-  geom_vline(xintercept = 740, linetype = "dotted", colour = "gray", size = 0.8) +
-  theme(plot.title = element_text(hjust = 0.5),
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(), 
-        panel.background = element_blank(), 
-        axis.line = element_line(colour = "black"),
-        strip.placement = "inside",
-        strip.background = element_blank(),
-        strip.text.y = element_blank()) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-uniform
-
-## Save plots
-ggsave(filename = "banded_mean.png",
+## Save plot
+ggsave(filename = "yellow.png",
        device = "png",
        path = normalizePath(path_plot),
-       plot = banded,
+       plot = yellow,
        width = 297, 
        height = 210, 
        units = "mm")
-
-ggsave(filename = "p_striped.png",
-       device = "png",
-       path = normalizePath(path_info),
-       plot = p_striped,
-       width = 297, 
-       height = 210, 
-       units = "mm")
-#################################################################################
-## Test data from March 2020
-path_data <- "C:/Users/L033060262053/Dropbox/projects/Projects_in_progress/DeathAdder_project/Results/Specro_Stacey_plots/Test_Mar2020/"
-path_plot <- "C:/Users/L033060262053/Dropbox/projects/Projects_in_progress/DeathAdder_project/Results/Specro_Stacey_plots/plots/"
-path_dataSub <- "C:/Users/L033060262053/Dropbox/projects/Projects_in_progress/DeathAdder_project/Results/Specro_Stacey_plots/Test_Mar2020/SubadultAA250/"
-
-## Read data
-rawTestSpectro <- list.files(path = path_dataSub, pattern = ".txt", full.names = TRUE) %>%
-  set_names(sub(".txt", '', basename(.))) %>%
-  map(read_tsv,
-      col_names = c("wavelength", "reflectance"),
-      col_types = cols(),
-      skip = 14) %>%
-  bind_rows(.id = 'sample')
-
-## Get mean reflectance for each wavelength value grouped by colour + sample
-meanTestSpectro <- rawTestSpectro %>%
-  mutate(sample = str_remove(string = sample, pattern = "Reflection__0__")) %>%
-  separate(col = sample, into = c("id", "colour", "replicate")) %>%
-  group_by(id, colour, wavelength) %>% 
-  summarise(mean_reflectance = mean(reflectance))
-
-## Plotting test results
-min_reflectance = -10
-max_reflectance = 120
-
-# Plot reference scans
-test_ref <- meanTestSpectro %>%
-  filter(grepl(".*Ref", colour)) %>%
-  #filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour))
-
-test_ref <- test_ref + geom_point(size = 0.5) +
-  facet_wrap(~colour, dir = "v", ncol = 4, scales = "free") +
-  labs(title = "Juv13 test refs",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  #scale_colour_manual(values = pal) +
-  theme_bw() +
-  xlim(200, 900) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-# Plot test data
-test_data <- meanTestSpectro %>%
-  filter(!grepl(".*Ref", colour)) %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour))
-
-
-test_data <- test_data + geom_point(size = 0.5) +
-  facet_wrap(~colour, dir = "v", ncol = 4, scales = "free") +
-  labs(title = "Juv13 test data",
-       #caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  #scale_colour_manual(values = pal) +
-  theme_bw() +
-  xlim(200, 900) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-ggsave(filename = "test_ref_juv.png",
-       device = "png",
-       path = normalizePath(path_plot),
-       plot = test_ref,
-       width = 297, 
-       height = 210, 
-       units = "mm")
-
-## Subadult data
-
-## Read data
-rawSubSpectro <- list.files(path = path_dataSub, pattern = ".txt", full.names = TRUE) %>%
-  set_names(sub(".txt", '', basename(.))) %>%
-  map(read_tsv,
-      col_names = c("wavelength", "reflectance"),
-      col_types = cols(),
-      skip = 14) %>%
-  bind_rows(.id = 'sample')
-
-## Get mean reflectance for each wavelength value grouped by colour + sample
-meanSubSpectro <- rawSubSpectro %>%
-  mutate(sample = str_remove(string = sample, pattern = "Reflection__0__")) %>%
-  separate(col = sample, into = c("id", "colour", "probe_angle", "replicate")) %>%
-  group_by(id, probe_angle, colour, wavelength) %>%
-  summarise(mean_reflectance = mean(reflectance))
-
-# Plot reference scans subadult
-testSub_ref <- meanSubSpectro %>%
-  filter(grepl(".*Ref", colour)) %>%
-  #filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour))
-
-testSub_ref <- testSub_ref + geom_point(size = 0.5) +
-  facet_wrap(~colour, dir = "v", ncol = 4, scales = "free") +
-  labs(title = "SubadultAA250 test refs",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  #scale_colour_manual(values = pal) +
-  theme_bw() +
-  xlim(200, 900) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-# Plot test data over angle
-testSub_data <- meanSubSpectro %>%
-  filter(!grepl(".*Ref", colour)) %>%
-  filter(mean_reflectance > min_reflectance & mean_reflectance <= max_reflectance) %>%
-  ggplot(aes(x = wavelength, y = mean_reflectance, colour = colour))
-
-testSub_data <- testSub_data + geom_point(size = 0.5) +
-  facet_wrap(~probe_angle + colour, dir = "v", ncol = 2) +
-  labs(title = "SubadultAA250 test data",
-       #caption = "Grey vertical lines indicate visible spectrum",
-       x = 'Wavelength',
-       y = 'Mean Reflectance') +
-  #scale_colour_manual(values = pal) +
-  theme_bw() +
-  xlim(200, 900) +
-  guides(colour = guide_legend(override.aes = list(size=3)))
-
-# Save
-ggsave(filename = "test_ref_subAdult.png",
-       device = "png",
-       path = normalizePath(path_plot),
-       plot = testSub_ref,
-       width = 297, 
-       height = 210, 
-       units = "mm")
-
-ggsave(filename = "test_data_subAdult.png",
-       device = "png",
-       path = normalizePath(path_plot),
-       plot = testSub_data,
-       width = 210, 
-       height = 297, 
-       units = "mm")
+##
