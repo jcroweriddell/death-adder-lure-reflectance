@@ -20,7 +20,10 @@ pal <- c("Black1" = "#333333",
          "White1" = "#CC9999",
          "White2" = "#FFCCCC",
          "YellowVentral" = "#FFCC99",
-         "WhiteVentral" = "#CCCCFF")
+         "WhiteVentral" = "#CCCCFF",
+         "SupralabialWhite" = "#FFCCCC",
+         "SupralabialBlack" = "#333333",
+         "PreoccularBrown" = "#CC9966")
 
 ### Function to plot spectro data
 plotSpectro <- function(vec_samples = NULL, path_data, ext_files = NULL, n_commentLines = 14,
@@ -70,8 +73,8 @@ plotSpectro <- function(vec_samples = NULL, path_data, ext_files = NULL, n_comme
     labs(x = 'Wavelength', y = 'Mean Reflectance (%)') +
     xlim(300, 700) +
     ylim(0, 100) +
-    geom_vline(xintercept = 380, linetype = "dotted", colour = "grey20", size = 0.8) +
-    annotate(geom="text", x = 350, y = 100, label = "UV", color = "grey20") +
+    geom_vline(xintercept = 400, linetype = "dotted", colour = "grey20", size = 0.8) +
+    #annotate(geom="text", x = 350, y = 100, label = "UV", color = "grey20") +
     #geom_vline(xintercept = 740, linetype = "dotted", colour = "gray", size = 0.8) +
     theme(plot.title = element_text(hjust = 0.5),
           panel.grid.major = element_blank(), 
@@ -104,15 +107,16 @@ plotSpectro <- function(vec_samples = NULL, path_data, ext_files = NULL, n_comme
 }
 
 ### Set directories
-path_info <- "C:/Users/L033060262053/Dropbox (University of Michigan)/projects/Projects_in_progress/DeathAdder_project/Supplementary/death-adder-lure-reflectance/data/"
-path_data <- "C:/Users/L033060262053/Dropbox (University of Michigan)/projects/Projects_in_progress/DeathAdder_project/Supplementary/death-adder-lure-reflectance/data/reflectance/Tail_measurements/"
-path_plot <- "C:/Users/L033060262053/Dropbox (University of Michigan)/projects/Projects_in_progress/DeathAdder_project/Supplementary/death-adder-lure-reflectance/plots/ "
+path_info <- "C:/Users/jmcr/Documents/death-adder-lure-reflectance/data/"
+path_data <- "C:/Users/jmcr/Documents/death-adder-lure-reflectance/data/reflectance/Tail_measurements/"
+path_data_h <- "C:/Users/jmcr/Documents/death-adder-lure-reflectance/data/reflectance/Head_measurements/"
+path_plot <- "C:/Users/jmcr/Documents/death-adder-lure-reflectance/plots/ "
 
-## Using function to plot the data
+## Using function to plot the any sample
 plotSpectro(vec_samples = c("JCR0019"), # select specimen numbers
             path_data = path_data,
             ext_files = '.txt' ,
-            save_plot = TRUE, # TRUE = save plot, FALSE = display plot
+            save_plot = FALSE, # TRUE = save plot, FALSE = display plot
             path_plot = paste0(path_plot, "uniform_tails"),
             name_plot = "JCR0019", 
             image_type = "png")
@@ -232,4 +236,15 @@ ggsave(filename = "yellow.png",
        width = 297, 
        height = 210, 
        units = "mm")
+##
+
+## Plot head measurements
+
+plotSpectro(vec_samples = c("JCR0018"), # select specimen numbers
+            path_data = path_data_h,
+            ext_files = '.txt' ,
+            save_plot = FALSE, # TRUE = save plot, FALSE = display plot
+            path_plot = path_plot,
+            name_plot = "head_measurements", 
+            image_type = "png")
 ##
