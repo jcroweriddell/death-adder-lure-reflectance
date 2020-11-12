@@ -22,8 +22,37 @@ prey <- read_csv("data/diet/prey.csv", col_names = TRUE) %>%
   filter(species == "ant") %>% # filter for only A. antarcticus
   filter(Country == "AUS") # filter for only specimens collected in Australia
 
-prey_sa <- prey %>%
-  filter(State == "SA")
+
+#prey_sa <- prey %>%  filter(State == "SA")
+
+# Prey count
+prey %>%
+  group_by(Prey_taxa_major) %>%
+  count()
+
+# Mammalian prey
+prey %>%
+  filter(Prey_taxa_major %in% "Mammalian") %>%
+  group_by(Prey_taxa_family) %>%
+  count()
+
+# Reptilian prey
+prey %>%
+  filter(Prey_taxa_major %in% "Reptilian") %>%
+  group_by(Prey_taxa_family) %>%
+  count()
+
+# Avian
+prey %>%
+  filter(Prey_taxa_major %in% "Avian") %>%
+  group_by(Prey_taxa_family) %>%
+  count()
+
+# Anuran
+prey %>%
+  filter(Prey_taxa_major %in% "Amphibian") %>%
+  group_by(Prey_taxa_family) %>%
+  count()
 
 ### Plot prey items recorded ~ svl of specimens
 
